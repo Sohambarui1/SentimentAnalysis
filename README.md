@@ -34,7 +34,7 @@ The system accepts textual input from users and analyzes it to identify sentimen
 
 ---
 
-###running processes
+## How to Run the Project
 
 1.git lfs install
 2.git clone https://github.com/Sohambarui1/SentimentAnalysis.git
