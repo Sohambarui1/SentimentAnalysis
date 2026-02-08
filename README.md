@@ -34,5 +34,19 @@ The system accepts textual input from users and analyzes it to identify sentimen
 
 ---
 
+###running processes
+
+1.git lfs install
+2.git clone https://github.com/Sohambarui1/SentimentAnalysis.git
+  cd SentimentAnalysis
+3.pip install -r requirements.txt
+4.python app.py
+5.Open in Browser
+  http://127.0.0.1:5000
+
+Note
+If the model file does not download automatically, run:
+git lfs pull
+
 ## 📂 Project Structure
 
