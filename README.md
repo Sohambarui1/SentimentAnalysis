@@ -33,16 +33,19 @@ The system accepts textual input from users and analyzes it to identify sentimen
 - Git Large File Storage (Git LFS) for large model files
 
 ---
-
 ## How to Run the Project
 
-1.git lfs install
-2.git clone https://github.com/Sohambarui1/SentimentAnalysis.git
-  cd SentimentAnalysis
-3.pip install -r requirements.txt
-4.python app.py
-5.Open in Browser
-  http://127.0.0.1:5000
+```bash
+git lfs install
+git clone https://github.com/Sohambarui1/SentimentAnalysis.git
+cd SentimentAnalysis
+pip install -r requirements.txt
+python app.py
+
+```
+
+Open your browser and go to:
+http://127.0.0.1:5000
 
 Note
 If the model file does not download automatically, run:
