@@ -3,6 +3,11 @@
 # MATCHES train_bert.py (Single-Stage)
 # =========================================
 
+# Install torch separately based on CUDA version
+# Example:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import torch
