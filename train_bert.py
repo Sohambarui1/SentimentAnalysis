@@ -3,6 +3,11 @@
 # Eats Resources For Breakfast • Smart Training Strategy
 # ============================================================
 
+# Install torch separately based on CUDA version
+# Example:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+
 import pandas as pd
 import numpy as np
 import torch
