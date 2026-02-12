@@ -37,9 +37,10 @@ The system accepts textual input from users and analyzes it to identify sentimen
 
 ```bash
 git lfs install
-git clone https://github.com/Sohambarui1/SentimentAnalysis.git
+git clone https://github.com/Subham-Singha/SentimentAnalysis.git
 cd SentimentAnalysis
 pip install -r requirements.txt
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 python app.py
 
 ```
